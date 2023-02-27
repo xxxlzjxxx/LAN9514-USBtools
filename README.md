@@ -9,7 +9,7 @@
 
 ### 使用说明
 1. 安装USB转串口芯片驱动。根据操作系统下载对应的驱动程序：[CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads)。
-2. 使用USB type B或C插头连接PCB。J
+2. 使用USB type B或C插头连接PCB。
 ![驱动安装成功图示](https://github.com/xxxlzjxxx/LAN9514-USBtools/PICTURE/设备管理器.png)
 3. 设备管理器中所示Enhanced COM Port和Standard COM Port与PCB上丝印所示一一对应。其中Standard COM Port提供TTL电平的串口通信排针与DB9公头插座的232电平的串口通信插座。Enhanced COM Port提供RS485通信插座。LAN9512/LAN9514 USB 2.0 to Ethernet 10/100 Adapter为标准百兆以太网接口。同时PCB提供3个USB2.0速率的接口。
 4. 通用串行总线interface features：
